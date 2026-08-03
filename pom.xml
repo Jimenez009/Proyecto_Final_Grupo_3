@@ -34,6 +34,14 @@
             <artifactId>jersey-media-json-jackson</artifactId>
             <version>4.0.0-M2</version>
         </dependency>
+
+        <dependency>
+            <groupId>org.primefaces</groupId>
+            <artifactId>primefaces</artifactId>
+            <version>13.0.0</version> <!-- Puedes usar la versión más reciente jakarta/javax según tu servidor -->
+            <classifier>jakarta</classifier> <!-- Usa este clasificador si usas Tomcat 10+ o GlassFish 7+ -->
+        </dependency>
+
         <dependency>
             <groupId>org.glassfish.jersey.inject</groupId>
             <artifactId>jersey-cdi2-se</artifactId>
